@@ -3,7 +3,7 @@ ESP32_ST7789V_耀元鸿2.8寸IPS屏Driver
 The connection between ESP Board and the LCD is as follows:
 
 ```
-       ESP Board                       GC9A01/ILI9341 Panel + TOUCH
+       ESP Board                       ILI9341 Panel + TOUCH G911
 ┌──────────────────────┐              ┌────────────────────┐
 │             GND      ├─────────────►│ GND                │
 │                      │              │                    │
