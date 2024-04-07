@@ -19,12 +19,12 @@ The connection between ESP Board and the LCD is as follows:
 │                      │              │                    │
 │             DC       ├─────────────►│ DC                 │
 │                      │              │                    │
-│             LCD CS   ├─────────────►│ LCD CS
-
-            Touch SDA
-├─────────────►│ SDA                  Touch RST
-├─────────────►│ RST   
-            TOUCH SCL  ├─────────────►│ SCL                
+│       TOUCH SCL      ├─────────────►│ SCL                │
+│                      │              │                    │
+│       TOUCH SDA      ├─────────────►│ SDA                │
+│                      │              │                    │
+│       TOUCH INT      ├─────────────►│ INT                │
+|                      |              |                    |
 │             BK_LIGHT ├─────────────►│ BLK                │
 └──────────────────────┘              └────────────────────┘
 ```
